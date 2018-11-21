@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.img {
+	height: 200px;
+	width: 250px;
+	border: 1px solid black;
+}
+
+.header {
+	width: 1200px;
+    height: 200px;
+    margin: 0 auto 100px auto;
+    border: 1px solid black;
+    display: flex;
+  	align-items: center;
+  	justify-content: center ;
+  	font-size: 50px;
+}
+
+.footer {
+	width: 1200px;
+    height: 120px;
+    margin: 100px auto 0 auto;
+    border: 1px solid black;
+    display: flex;
+  	align-items: center;
+  	justify-content: center ;
+  	font-size: 50px;
+}
+
+.product {
+	width: 1200px;
+}

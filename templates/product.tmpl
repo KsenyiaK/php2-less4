@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel='stylesheet' href='public/styles/style.css'>
+</head>
+<body>
+	
+	{% include 'header.tmpl' %}
+
+	<div class="container">
+		<a href="index.php" style='position: absolute;'><-- Вернуться</a>
+		<div class="product">
+			<img src="public/{{product.path}}" alt="" style='width:600px;'>
+		</div>
+	</div>
+	
+	{% include 'footer.tmpl' %}
+
+	
+</body>
+</html>
